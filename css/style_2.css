@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 3vw;
+    font-family: 'Lora', serif;
+}
+h2{
+    font-size: 2vw;
+    font-family: 'Lora', serif;
+}
+h3{
+    font-size: 1.5vw;
+    font-family: 'Lora', serif;
+} 
+header{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/Immagini/background.jpg');
+    background-size: cover;
+    background-position: top;
+}
+header nav{
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#logo_div{
+    height: 80%;
+}
+#logo_div img{
+    height: 100%;
+    border-radius: 10px;
+}
+header nav ul {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+header nav ul li a{
+    color: #333;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #ffcd38;
+    text-decoration: underline;
+}
+/* Documentazione */
+main{
+    padding: 5vw 10vw;
+}
+main ul{
+    margin-top: 3vw;
+}
+main ul li{
+    list-style: decimal;
+    padding-left: 2vw;
+    margin-bottom: 2vw;
+    font-size: 1.25vw;
+}
+.ul_n2{
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+}
+.ul_n2 li{
+    list-style: square;
+    padding-left: 1vw;
+}
+.ul_n2 li img{
+    width: 40vw;
+}
+.ul_n3{
+    margin-top: 1.5vw;
+    margin-left: 1.5vw;
+}
+.ul_n3 li{
+    list-style: lower-alpha;
+    padding-left: 1vw;
+}
+/* COMMUNICATION STRATEGY */
+#communication{
+    margin-top: 10vh;
+}
+/* footer */
+footer{
+    padding: 5vw;
+    background-color: black;
+    height: 10vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+footer a {
+    color: white;
+}
+footer u {
+    margin-left: 20px;
+}
